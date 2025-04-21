@@ -1,0 +1,674 @@
+.theme-midnight:root {
+  --card-primary-bg: var(--background-base-low);
+  --background-message-hover: var(--opacity-8);
+  --custom-channel-members-bg: var(--background-base-lowest);
+  --scrollbar-auto-scrollbar-color-thumb: var(--background-surface-highest);
+  --scrollbar-auto-thumb: var(--background-surface-highest);
+  --scrollbar-thin-thumb: var(--background-surface-highest);
+  /**
+   * These are some old variables Discord used.
+   * They're still used in some areas, still would prefer to update areas to use the new ones if possible.
+   */
+  --background-primary: var(--background-base-lowest);
+  --background-secondary: var(--background-base-lower);
+  --background-secondary-alt: var(--background-base-low);
+  --background-tertiary: var(--background-base-low);
+  --modal-background: var(--background-base-lowest);
+  --modal-footer-background: var(--background-base-lowest);
+}
+
+.theme-midnight .header__0b563 {
+  border-left: 1px solid var(--app-border-frame);
+  background-color: transparent !important;
+}
+.theme-midnight .pageBody__41ed7 {
+  background: var(--background-base-lowest);
+}
+.theme-midnight .container__0b563 {
+  background: var(--background-base-lowest) !important;
+}
+
+.theme-midnight .wrapper__02fc8 button {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .wrapper__02fc8 button:hover {
+  background-color: var(--bg-mod-subtle);
+}
+
+.theme-midnight .wrapper_fc8177,
+.theme-midnight .wrapper_d852db {
+  background: var(--background-base-lowest);
+}
+.theme-midnight .content_f75fb0 .chatContent_f75fb0 {
+  background: var(--background-base-lowest);
+}
+.theme-midnight .members_c8ffbb {
+  background: var(--background-base-lowest);
+}
+.theme-midnight .members_c8ffbb .member__5d473:hover .childContainer__91a9d {
+  background-color: var(--bg-mod-faint);
+}
+.theme-midnight .members_c8ffbb .member__5d473:is(.selected__91a9d, :active) .childContainer__91a9d {
+  background-color: var(--bg-mod-subtle);
+}
+.theme-midnight .wrapper_f7ecac {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .channelTextArea__74017 {
+  background: var(--background-base-low);
+}
+.theme-midnight .channelTextArea__74017 .themedBackground__74017 {
+  background: var(--background-base-low);
+}
+.theme-midnight .stackedBars__74017 {
+  background: var(--background-surface-high);
+}
+.theme-midnight .content__44492 .messageContent__44492 {
+  margin-top: 5px;
+  border-radius: 5px 5px 0 0;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-color: var(--border-subtle);
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .content__44492 .messageContent__44492 .embedCard__44c9a {
+  background-color: transparent;
+}
+.theme-midnight .content__44492 .footerContainer__44492 {
+  border-radius: 0 0 5px 5px;
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .embedCard_b99f57 {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .embedCard_b99f57 .cardFooter_b99f57 {
+  border-top: 1px solid var(--border-subtle);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .chatContent_f75fb0 {
+  background-color: transparent;
+}
+
+.theme-midnight .container__133bf {
+  border-left: 1px solid var(--app-border-frame);
+}
+.theme-midnight .container__133bf .tabBody__133bf {
+  border-left: unset;
+}
+.theme-midnight .tabBody__133bf,
+.theme-midnight .container__7d20c {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .section__00943 {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .addFriendInputWrapper__72ba7 {
+  /**
+   * the border is supposed to appear blue when the input is selected,
+   * but i forgot how to check that...
+   */
+  border-color: var(--input-border);
+  background: var(--input-background);
+}
+.theme-midnight .outer_bf1984 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .outer_bf1984:hover {
+  background-color: var(--background-surface-high);
+}
+
+.theme-midnight .container__9293f {
+  --__header-bar-background: var(--background-base-lowest);
+}
+.theme-midnight .container__9293f.themed__9293f {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .scroller__23746 {
+  border-left: 1px solid var(--app-border-frame);
+  background: var(--background-base-lowest);
+}
+
+.theme-midnight .container_f369db {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .mainCard_f369db {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .mainCard_f369db:hover {
+  background-color: var(--background-surface-higher);
+}
+.theme-midnight .mainCard_f369db .contentPreview__9a337 {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .textContentFooter__9a337 {
+  background-image: linear-gradient(0deg, hsl(var(--primary-900-hsl)/1), hsl(var(--primary-900-hsl)/0.97) 36px, hsl(var(--primary-900-hsl)/0.4));
+}
+
+.theme-midnight {
+  /**
+   * the header is like, 1px off for some reason.. im going NUTS
+   */
+}
+.theme-midnight .libraryHeader__5a895 {
+  border: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .scroller__4a84a,
+.theme-midnight .scroller_fb04e1 {
+  border-left: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .header_c791b2 {
+  border-left: 1px solid var(--app-border-frame);
+  background-color: transparent;
+}
+.theme-midnight .page_c791b2 > div.thin_d125d2.scrollerBase_d125d2 {
+  border-left: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .page_c791b2 .container_c791b2 {
+  border-left: unset;
+}
+
+.theme-midnight .headerBar__0920e {
+  border-left: 1px solid var(--app-border-frame);
+  background-color: transparent;
+}
+.theme-midnight .mainPageScroller_ca1a02 {
+  border-left: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .card_f8e6bf {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .card_f8e6bf .cardDescription__1f069 {
+  background-image: linear-gradient(180deg, var(--background-base-lower) 50%, color-mix(in hsl, var(--background-base-lower) 25%, var(--background-base-lower) 25%) 80%);
+}
+.theme-midnight .container_da4aee {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .container_da4aee .textContainer_da4aee {
+  background-image: linear-gradient(90deg, var(--background-base-lower) 50%, color-mix(in hsl, var(--background-surface-high) 25%, var(--background-surface-high) 25%) 80%);
+}
+.theme-midnight .allPerksScroller_ca1a02 .container_ca1a02 {
+  border-left: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .circleIconButton__5bc7e,
+.theme-midnight .childWrapperNoHoverBg__6e9f8 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .wrapper__48112 .childWrapperNoHoverBg__6e9f8:not(:hover) {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .folder__48112 .expandedFolderIconWrapper__48112 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .folder__48112.hover__48112 .expandedFolderIconWrapper__48112 {
+  background-color: var(--background-mod-subtle);
+}
+.theme-midnight .expandedFolderBackground__48112 {
+  background-color: var(--background-base-low);
+}
+
+.theme-midnight .headerBar__80679 {
+  border-left: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .mainContent__08415,
+.theme-midnight .pageWrapper__6db1d {
+  border-left: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .darkCardBackground_c3d04b {
+  background-color: var(--background-base-low);
+}
+
+.theme-midnight .wrapper__2ea32:hover .link__2ea32 {
+  background-color: var(--bg-mod-faint);
+}
+.theme-midnight .wrapper__2ea32:active .link__2ea32,
+.theme-midnight .modeSelected__2ea32 .link__2ea32,
+.theme-midnight .modeSelected__2ea32:hover .link__2ea32 {
+  background-color: var(--bg-mod-subtle);
+}
+.theme-midnight .wrapper__260e1 {
+  border-color: var(--background-base-low);
+}
+.theme-midnight .wrapper__260e1 .users__260e1 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .wrapper__260e1 .total__260e1 {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .wrapper__260e1 .total__260e1::after {
+  border-right-color: var(--background-surface-high);
+}
+.theme-midnight .interactive_bf202d:hover {
+  background: var(--bg-mod-faint);
+}
+.theme-midnight .interactive_bf202d:active, .theme-midnight .interactive_bf202d.selected_bf202d {
+  background: var(--bg-mod-subtle);
+}
+.theme-midnight .navItem__551b0:hover {
+  background: var(--bg-mod-faint);
+}
+.theme-midnight .navItem__551b0:active, .theme-midnight .navItem__551b0.selected__551b0 {
+  background: var(--bg-mod-subtle);
+}
+
+.theme-midnight .panel__5dec7 {
+  background-color: var(--background-base-low);
+}
+
+.theme-midnight .buttonSection__1405b {
+  border-color: var(--border-faint);
+}
+.theme-midnight .callContainer_cb9592 {
+  border-bottom: 1px solid var(--app-border-frame);
+}
+
+.theme-midnight .upsellContainer__88422 {
+  background-color: var(--background-base-low);
+}
+
+.theme-midnight .focusLock__49fc1 .footer_d97f89 {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .focusLock__49fc1 .root__49fc1 {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .focusLock__49fc1 .footer__49fc1 {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .cardHeader_b44011.inModal_b44011 {
+  padding-left: 10px;
+  padding-right: 10px;
+  /**
+   * This is just a temporary fix.
+   * I did something weird with the cards and I need to figure out how to handle that better.
+   */
+}
+.theme-midnight .cardHeader_b44011.inModal_b44011 ~ .divider__46c3b {
+  display: none;
+}
+
+.theme-midnight .previewDark__4e29d {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .addGamePopout_cc46f0 {
+  box-shadow: 0 0 0 1px var(--border-subtle), var(--legacy-elevation-high);
+  border-radius: 10px;
+  background-color: var(--background-base-low);
+}
+
+.theme-midnight .autocomplete__6b0e0 {
+  border: 1px solid var(--border-faint);
+}
+.theme-midnight .autocomplete__13533 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .autocomplete__13533 .wrapper__14245 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .autocomplete__13533 .wrapper__4e6ce {
+  border-right: 1px solid var(--border-faint);
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .autocomplete__13533 .base__13533:hover {
+  background-color: var(--background-surface-high);
+}
+
+.theme-midnight .menu_c1e9c4 {
+  border-color: var(--border-faint);
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .button_f563df {
+  background-color: var(--bg-mod-faint);
+}
+.theme-midnight .button_f563df:is(:hover, :focus, .focused_f563df) {
+  background-color: var(--bg-mod-subtle);
+}
+.theme-midnight .item_c1e9c4:is(:hover, :focus, .focused_c1e9c4) {
+  background-color: var(--bg-mod-faint);
+}
+
+.theme-midnight .recentMentionsPopout__95796 {
+  border: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .recentMentionsPopout__95796 .header__45690,
+.theme-midnight .recentMentionsPopout__95796 .channelHeader__35a7e,
+.theme-midnight .recentMentionsPopout__95796 .container__0f711 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .recentMentionsPopout__95796 .messageContainer__95796,
+.theme-midnight .recentMentionsPopout__95796 .messages__1ccd1 {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .messagesPopoutWrap__45690 {
+  border: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .messagesPopoutWrap__45690 .header__45690,
+.theme-midnight .messagesPopoutWrap__45690 .footer__45690 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .messagesPopoutWrap__45690 .footer__45690 {
+  border-top: 1px solid var(--app-border-frame);
+}
+.theme-midnight .messagesPopoutWrap__45690 .messageGroupWrapper__45690 {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .container__55c99 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .queryContainer__55c99 {
+  background-color: var(--background-base-low);
+  border-bottom-color: var(--border-subtle);
+}
+.theme-midnight .calendarPicker_d27f17 .react-datepicker,
+.theme-midnight .calendarPicker_d27f17 .react-datepicker__header {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--disabled, .theme-midnight .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--disabled:hover {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .option__56fec:hover {
+  background-color: var(--bg-mod-subtle);
+}
+
+.theme-midnight .browser_d98031 {
+  border: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .browser_d98031 .header_d9c882 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .browser_d98031 .container__6764b {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .sidebarRegionScroller__23e6b {
+  border-right: 1px solid var(--app-border-frame);
+}
+
+/**
+ * I organize everything based on how I did stuff in order.
+ *
+ * It should be noted that some elements are used in other areas in settings,
+ * but I'm not sure which ones and I'm too lazy to really dig into it.
+*/
+.theme-midnight .contentRegion__23e6b,
+.theme-midnight .contentRegionScroller__23e6b {
+  background: var(--background-base-lowest);
+}
+.theme-midnight .accountProfileCard__1fed1 {
+  background: var(--background-base-low);
+  border: 1px solid var(--border-subtle);
+}
+.theme-midnight .accountProfileCard__1fed1 .background__1fed1 {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .accountProfileCard__1fed1 .background__1fed1 .fieldList__1fed1 {
+  background-color: transparent;
+}
+.theme-midnight .marker_d878e7 {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .card__5cea9 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .card__5cea9 .header__5cea9 {
+  border-bottom: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .card__5cea9 .usersList__5cea9 {
+  background-color: transparent;
+}
+.theme-midnight .box_f8c98c {
+  border-color: var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .connectContainer_c7f964 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .accountAddWrapper_c7f964 .accountAddInner_c7f964 {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .accountAddWrapper_c7f964 .accountAddInner_c7f964:hover {
+  background-color: var(--bg-mod-subtle);
+}
+.theme-midnight .connection_c7f964 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .connection_c7f964 .connectionHeader_c7f964 {
+  border-bottom: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .connection_c7f964 .metadataContainer_c7f964 {
+  border: 1px solid var(--app-border-frame);
+}
+.theme-midnight .connection_c7f964 .integrationWrapper_c7f964 {
+  border: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .expandedProgressBarContainerSettingsPage_a61c56,
+.theme-midnight .giftCard_a45ed3, .theme-midnight .giftCardPromotion_a45ed3 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .appliedBoostContainer_ceb06a {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .appliedBoostContainer_ceb06a .boostContainerSeparator_ceb06a {
+  background-color: var(--border-subtle);
+}
+.theme-midnight .appliedBoostContainer_ceb06a .boostContainer_ceb06a {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .appliedBoostContainer_ceb06a .guildContainer__5dba5:not(.recommendedServerCard__51537) {
+  border-bottom: 1px solid var(--border-faint);
+}
+.theme-midnight .guildContainer__5dba5 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .guildContainer__5dba5.recommendedServerCard__51537 {
+  border: 1px solid var(--border-faint);
+}
+.theme-midnight .wrapper__5b98e {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .wrapper__5b98e .list__5b98e {
+  border-color: var(--border-subtle);
+}
+.theme-midnight .wrapper__5b98e .listItem__5b98e {
+  border-color: var(--border-subtle);
+}
+.theme-midnight .detailsBlock_e335a7 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .paymentPane__01014 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .paymentPane__01014 .scrollerBase_d125d2 {
+  overflow: unset !important;
+}
+.theme-midnight .paymentPane__01014 .paginator__01014 {
+  background: transparent;
+}
+.theme-midnight .paymentPane__01014 .payment_e9cb00 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .paymentPane__01014 .hoverablePayment_e9cb00:hover {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .paymentPane__01014 .expandedInfo_e9cb00 {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .preview__3e443 {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .preview__5d148 {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .notches__06283.gray__06283 {
+  color: var(--background-base-lowest);
+}
+.theme-midnight .progress__06283 {
+  background-color: var(--background-surface-highest);
+}
+.theme-midnight .sliderBar_ac7648:not(.speaking_ac7648) {
+  background-color: var(--background-surface-highest);
+}
+.theme-midnight .slider_a562c8 .bar_a562c8 {
+  background-color: var(--background-surface-highest);
+}
+.theme-midnight .markDash_a562c8 {
+  background-color: var(--background-surface-highest);
+}
+.theme-midnight .container__86ab2 {
+  border-color: var(--border-subtle);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .avatarWrapper__86ab2 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .avatarUploaderInnerSquareDisabled_e04502 {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .tier_f15dca:has([class]) {
+  /**
+   * Some weird bug that Discord has with headers.
+   */
+}
+.theme-midnight .tier_f15dca:has([class]) .tierHeaderWithoutCardBody_f15dca {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.theme-midnight .tier_f15dca {
+  background: var(--background-base-lower);
+}
+.theme-midnight .tierHeader_f15dca {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .tierBody_f15dca {
+  background-color: transparent;
+}
+.theme-midnight .wrapper__83b1d {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .wrapper__83b1d:hover {
+  background-color: var(--bg-mod-subtle);
+}
+.theme-midnight .titleContainer_e29cd7,
+.theme-midnight .header_c6bf1b {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .previewContainer__981c8 .theme-midnight .messageContainer__981c8 {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .joinOptions__959cb {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .joinOptions__959cb .joinOptionContent__959cb:hover {
+  background: var(--bg-mod-faint);
+}
+.theme-midnight .joinOptions__959cb .joinOptionContent__959cb:is(.active__959cb, :active) {
+  background: var(--bg-mod-subtle);
+}
+.theme-midnight .cardHeader_b44011 {
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  border-bottom: 1px solid var(--border-subtle);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .actionContainer__6446f,
+.theme-midnight .mentionLimitContainer_ed9c90 {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .actionContainer_bc4513 {
+  background-color: var(--background-surface-highest);
+}
+.theme-midnight .iconWrapper__96f95 {
+  border-radius: var(--radius-xs);
+  background-color: var(--background-surface-highest);
+}
+.theme-midnight .keywordListContainer__09e76 {
+  background-color: var(--background-surface-highest);
+}
+.theme-midnight .bannedUser_cdb2b0 {
+  background-color: var(--bg-mod-faint);
+}
+.theme-midnight .bannedUser_cdb2b0:hover {
+  background-color: var(--bg-mod-subtle);
+}
+.theme-midnight .content_a9b452 {
+  margin-top: 24px;
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .content_a9b452 .review_a9b452 {
+  margin-top: 0;
+  border-bottom: 1px solid var(--border-subtle);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .content_a9b452 .onboardingStepContainer__28e57 {
+  background-color: transparent;
+}
+.theme-midnight .container__5d756 {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .howItWorksContainer_dd30dc {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .creatorBenefitCard__02e4c {
+  border: 1px solid var(--border-faint);
+  background-color: var(--card-primary-bg);
+}
+.theme-midnight .guildCard__2485e {
+  border: 1px solid var(--border-faint);
+  background-color: var(--card-primary-bg);
+}
+.theme-midnight .card_b846e5 {
+  box-shadow: 0 1px 0 0 var(--border-subtle);
+}
+.theme-midnight .card_b846e5::before {
+  border-color: var(--border-subtle);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .editCard_a25a68 {
+  background-color: var(--card-primary-bg);
+}
+.theme-midnight .valuePill__5dac8 {
+  background-color: var(--background-surface-highest);
+}
+.theme-midnight .scroller__53543 {
+  background-color: var(--background-base-lowest);
+}
